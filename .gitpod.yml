@@ -15,3 +15,6 @@ tasks:
 #  extensions:
 #    - scalameta.metals@1.6.2:njgbLSjeMDyY9TZFwn0Bdw==
 #    - scala-lang.scala@0.3.8:wQBBM+lKILHBqOqlqW60xA==
+vscode:
+  extensions:
+    - lampepfl.dotty@0.1.16:d3587c837b126b21148f85a481dfc3b8
