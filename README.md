@@ -20,13 +20,11 @@ The download button can be found on the right under heading resources after Cate
 the extension can also be found at [VisxHub](https://www.vsixhub.com).
 
 Open in GitPod Menu -> View -> Extensions and drag and drop the file into left-hand "context" window
-titled "INSTALLED FOR THIS PROJECT". 
-
+titled "INSTALLED FOR THIS PROJECT". The following lines should appear automatically in your 
 `gitpod.yml`:
 ```
 vscode:
   extensions:
-    - scala-lang.scala@0.3.8:wQBBM+lKILHBqOqlqW60xA==
-    - scalameta.metals@1.6.2:njgbLSjeMDyY9TZFwn0Bdw== 
+    - lampepfl.dotty@0.1.16:d3587c837b126b21148f85a481dfc3b8
 ```
 This concludes the installation.
