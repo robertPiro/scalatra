@@ -1,8 +1,15 @@
 image:
    file: Dockerfile
 tasks:
-  - command: >
-       sbt
+  - command: 
+      if ! [ -d ./project]; then mkdir project; fi
+      echo '//project.organization=io.mytest' >> project/build.properties 
+      echo '//project.name=cool_proj' >> project/build.properties
+      echo 'project.version=1.0' >> project/build.properties
+      echo 'sbt.version=1.5.1' >> project/build.properties
+      echo 'build.scala.versions=3.0.0-RC2' >> project/build.properties
+      echo 'project.initialize=false' >>  project/build.properties
+      sbt
 #      echo ROCKET_ADDRESS=$ROCKET_ADDRESS >> .env &&
 #      echo ROCKET_PORT=$ROCKET_PORT >> .env &&
 #      pg_start.sh &&
