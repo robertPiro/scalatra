@@ -2,13 +2,6 @@ image:
    file: Dockerfile
 tasks:
   - command: 
-      if ! [ -d ./project ]; then mkdir project; fi ; \
-      echo 'sbt.version=1.5.1' >> project/build.properties ; \
-      echo 'This Build / scala.version := "3.0.0-RC2"' >> build.sbt ; \
-      echo 'This Build / organization  := "io.mytest"' >> build.sbt ; \
-      echo 'ThisBuild / version        := "0.1.0-SNAPSHOT"' >> build.sbt ; \
-      echo 'lazy val root = (project in file("."))' >> build.sbt ; \
-      echo '  .settings(name := "My Project")' >> build.sbt ; \
       sbt
 #      echo ROCKET_ADDRESS=$ROCKET_ADDRESS >> .env &&
 #      echo ROCKET_PORT=$ROCKET_PORT >> .env &&
