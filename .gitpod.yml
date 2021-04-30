@@ -2,15 +2,9 @@ image:
    file: Dockerfile
 tasks:
   - command: 
-      sbt new scala/scala3.g8
-#      echo ROCKET_ADDRESS=$ROCKET_ADDRESS >> .env &&
-#      echo ROCKET_PORT=$ROCKET_PORT >> .env &&
-#      pg_start.sh &&
-#      diesel setup &&
-#      cargo build &&
-#      cargo run
-#ports:
-# - port: 8000
+      sbt
 vscode:
   extensions:
     - lampepfl.dotty@0.1.16:d3587c837b126b21148f85a481dfc3b8
+    - scala-lang.scala@0.5.3:52fbc099c24619ec8e588ce9e89a1248
+    - lightbend.vscode-sbt-scala@0.2.4:495f3c419f3834b98155cefe07f42853
