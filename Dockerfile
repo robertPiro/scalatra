@@ -11,8 +11,6 @@ apt-get update && \
 apt-get install sbt
 
 USER gitpod
-#ADD ./mksbt.sh       /home/gitpod/bin/mksbt.sh
-ENV PATH ~/bin:$PATH
 
 # Give back control
 USER root
