@@ -23,4 +23,34 @@ project every weekday of a month you have two hours per day. Enough for a side p
 If you pay, you get obviously more. :)
 
 ## How to Start the Environment
-You can try it out with this environment.
+
+Click this [link](gitpod.io#https://github.com/robertPiro/scala3_for_gitpod) to start the 
+configuration saved in the master branch of this project. Since you will not be able to
+push to the master branch of [this repo](https://github.com/robertPiro/scala3_for_gitpod), 
+you will not be able to save changes. You cannot break anything. When you are done, just close
+the browser tab or the browser window and everything is back to the state is was!
+
+### How to Save changes
+You can either 
+
+* Create a repo with a supported Git hosting service and push to this new repo whence
+it can be conveniently started
+* Always start it with the link above and then clone your repo from your favourite service
+into this container.
+
+#### Create Repo and Set New Remote
+1. Create a new personal repo with one of the supported Git hosting services such as github, GitLab or Bitbucket.
+You will obtain your Git URI recognisable by its `git` extension, similar to
+` https://github.com/user/repo.git`.
+2. Start the container using this [link](gitpod.io#https://github.com/robertPiro/scala3_for_gitpod)
+3. Open terminal for example by clicking on Terminal -> New Terminal in the menu bar above
+4. In this terminal issue <br>
+```git remote add origin https://github.com/user/repo.git```
+5. Whenever you create a file, add it with `git add [filepath]`
+6. To save files, first save them with File -> Save All and then push them all up with
+```git commit -a -m '[here is a message of your choice]'```
+
+Next time you will be able to to start your container directly from the supported Git hosting service
+by putting ```gitpod.io#[your Git URI]``` into your browser bar, skipping steps 1 - 4. Never forget 
+steps 5. and 6. or else your changes will not be saved.
+
