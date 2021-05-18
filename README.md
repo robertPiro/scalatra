@@ -35,8 +35,8 @@ There are two ways to save changes, which we describe further down. You can eith
 
 * Create a repo with a supported Git hosting service and push to that new repo, from where
 the GitPod environment can be conveniently started (preferred), or
-* Always start it with the link above and then clone your repo from your favourite service
-into this container.
+* Once started the container, bookmark the resulting URI. GitPod will keep the container 
+around for a while. See the [Life of a workspace](https://www.gitpod.io/docs/life-of-workspace/).
 
 #### Create Repo and Set New Remote
 1. Create a new personal repo with one of the supported Git hosting services such as github, GitLab or Bitbucket.
@@ -52,5 +52,7 @@ You will obtain your Git URI recognisable by its `git` extension, similar to
 
 Next time you will be able to to start your container directly from the supported Git hosting service
 by putting ```gitpod.io#[your Git URI]``` into your browser bar, skipping steps 1 - 4. Never forget 
-steps 5. and 6. or else your changes will not be saved.
+steps 5. and 6. or else your changes may get lost.
+
+
 
