@@ -47,12 +47,17 @@ You will obtain your Git URI recognisable by its `git` extension, similar to
 4. In this terminal issue <br>
 ```git remote add origin https://github.com/user/repo.git```
 5. Whenever you create a file, add it with `git add [filepath]`
-6. To save files, first save them with File -> Save All and then push them all up with
-```git commit -a -m '[here is a message of your choice]'```
+6. To save files, first save them with File -> Save All, commit them<br>
+```git commit -a -m '[here is a message of your choice]'```<br>
+and then push the commit into the remote Git repository with<br>
+```git push```.
 
 Next time you will be able to to start your container directly from the supported Git hosting service
-by putting ```gitpod.io#[your Git URI]``` into your browser bar, skipping steps 1 - 4. Never forget 
-steps 5. and 6. or else your changes may get lost.
+by either 
+* using the bookmarked URI of you GitPod
+* or putting ```gitpod.io#[your Git URI]``` into your browser bar, skipping steps 1 - 4. 
+
+Never forget steps 5. and 6. or else your changes may get lost.
 
 
 
