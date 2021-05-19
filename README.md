@@ -45,7 +45,7 @@ You will obtain your Git URI recognisable by its `git` extension, similar to
 2. Start the container using this [link](gitpod.io#https://github.com/robertPiro/scala3_for_gitpod)
 3. Open terminal for example by clicking on Terminal -> New Terminal in the menu bar above
 4. In this terminal issue <br>
-```git remote add origin https://github.com/user/repo.git```
+```git remote set-url origin https://github.com/user/repo.git```
 5. Whenever you create a file, add it with `git add [filepath]`
 6. To save files, first save them with File -> Save All, commit them<br>
 ```git commit -a -m '[here is a message of your choice]'```<br>
